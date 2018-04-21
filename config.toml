@@ -4,6 +4,7 @@ title = "OpenBangla"
 theme = "beautifulhugo"
 disqusShortname = "openbangla"
 googleAnalytics = "UA-83035690-1"
+enableEmoji = true
 
 [Params]
   logo = "img/square.png"

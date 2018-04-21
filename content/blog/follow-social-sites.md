@@ -8,5 +8,6 @@ type: post
 ---
 
 OpenBangla Keyboard is now available on [twitter](https://twitter.com/OpenBanglaTeam) and on [facebook](https://www.facebook.com/openbanglakeyboard/). Follow and like OpenBangla Keyboard on social sites to always stay updated!
+<!--more-->
 
 {{< tweet 978532320008384512 >}}
