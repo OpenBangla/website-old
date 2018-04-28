@@ -24,6 +24,29 @@ bigimg: [{src: "img/OpenBangla-Keyboard.png"}, {src: "img/OBK1.png"}]
 
 The aim of this project is to add all popular Bengali typing methods from Bangladesh and India in a single interface. We want to make desktop publishing in Bengali more easier and convenient. We want to boost the use of Bengali in computers. Currently we have **English to Bangla Typing** or **Phonetic typing** for home users and for professionals we have **Traditional Keyboard Layout** or **Fixed typing method**.
 
+## Installing
+> If you had installed OpenBangla Keyboard 1.2.0 or earlier version, please uninstall it first.
+
+### Ubuntu
+OpenBangla Keyboard supports Ubuntu 16.04 LTS, 17.10 and 18.04 LTS version. Install OpenBangla Keyboard on your system by running the following commands:
+```bash
+$ curl -s https://packagecloud.io/install/repositories/mominul/OpenBangla/script.deb.sh | sudo bash
+$ sudo apt install openbangla-keyboard
+```
+After the installation completes, you have to log out from your session. If your Ubuntu version is 17.04 or earlier visit [Configure on Unity DE](https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Configure-on-Unity-DE) otherwise visit [Configure on Gnome DE](https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Configure-on-Gnome-DE).
+### Fedora
+OpenBangla Keyboard supports Fedora 27 version. Install OpenBangla Keyboard on your system by running the following commands:
+```bash
+$ curl -s https://packagecloud.io/install/repositories/mominul/OpenBangla/script.rpm.sh | sudo bash
+$ sudo dnf install openbangla-keyboard
+```
+After the installation completes, you have to log out from your session. You will need to [configure Gnome DE](https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Configure-on-Gnome-DE) for OpenBangla Keyboard to work.
+### Other
+Linux packages can be downloaded from [here](https://github.com/OpenBangla/OpenBangla-Keyboard/releases).
+
+If you need help, there is a wiki [page](https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Installing-OpenBangla-Keyboard).
+
+## Features
 #### Phonetic Typing
 **English to Bangla:**
 OpenBangla Keyboard comes with Avro Phonetic. So like in Avro Keyboard, you can write `ami banglay gan gai` and it will convert to `আমি বাংলায় গান গাই`
