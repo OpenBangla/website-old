@@ -8,7 +8,6 @@ bigimg: [{src: "img/OpenBangla-Keyboard.png"}, {src: "img/OBK1.png"}]
 **OpenBangla Keyboard** is an OpenSource Bengali input method for GNU/Linux systems.  It's flexible, gorgeous, feature rich, totally customizable, user friendly and already has a lot of typing automation tools that you have never imagined!
 
 <div style="text-align:center">
-    <iframe src="https://ghbtns.com/github-btn.html?user=OpenBangla&amp;repo=OpenBangla-Keyboard&amp;type=fork&amp;count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
     <iframe src="https://ghbtns.com/github-btn.html?user=OpenBangla&amp;repo=OpenBangla-Keyboard&amp;type=star&amp;count=true" frameborder="0" scrolling="0" width="106px" height="20px"></iframe>
 </div>
 
@@ -24,27 +23,17 @@ bigimg: [{src: "img/OpenBangla-Keyboard.png"}, {src: "img/OBK1.png"}]
 
 The aim of this project is to add all popular Bengali typing methods from Bangladesh and India in a single interface. We want to make desktop publishing in Bengali more easier and convenient. We want to boost the use of Bengali in computers. Currently we have **English to Bangla Typing** or **Phonetic typing** for home users and for professionals we have **Traditional Keyboard Layout** or **Fixed typing method**.
 
-## Installing
-> If you had installed OpenBangla Keyboard 1.2.0 or earlier version, please uninstall it first.
+</br>
 
-### Ubuntu
-OpenBangla Keyboard supports Ubuntu 16.04 LTS, 17.10 and 18.04 LTS version. Install OpenBangla Keyboard on your system by running the following commands:
-```bash
-$ curl -s https://packagecloud.io/install/repositories/mominul/OpenBangla/script.deb.sh | sudo bash
-$ sudo apt install openbangla-keyboard
-```
-After the installation completes, you have to log out from your session. If your Ubuntu version is 17.04 or earlier visit [Configure on Unity DE](https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Configure-on-Unity-DE) otherwise visit [Configure on Gnome DE](https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Configure-on-Gnome-DE).
-### Fedora
-OpenBangla Keyboard supports Fedora 27 version. Install OpenBangla Keyboard on your system by running the following commands:
-```bash
-$ curl -s https://packagecloud.io/install/repositories/mominul/OpenBangla/script.rpm.sh | sudo bash
-$ sudo dnf install openbangla-keyboard
-```
-After the installation completes, you have to log out from your session. You will need to [configure Gnome DE](https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Configure-on-Gnome-DE) for OpenBangla Keyboard to work.
-### Other
-Linux packages can be downloaded from [here](https://github.com/OpenBangla/OpenBangla-Keyboard/releases).
-
-If you need help, there is a wiki [page](https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Installing-OpenBangla-Keyboard).
+<div class="main-explain-area jumbotron">
+    <div class="get-started-wrap" style="text-align:center">
+        <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/OpenBangla/OpenBangla-Keyboard/releases" target="_blank">Download Packages for Linux</a>
+    </div>
+    </br>
+    <div style="text-align:center">
+        <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Installing-OpenBangla-Keyboard" target="_blank">Installation instructions</a>
+    </div>
+</div>
 
 ## Features
 #### Phonetic Typing
