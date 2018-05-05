@@ -32,22 +32,22 @@ type: post
 আর এই সংস্করণের সবচেয়ে বড় ফিচার হলঃ এখন ব্যবহারকারীরা ওপেনবাংলা কিবোর্ড তাদের ডিস্ট্রোর প্যাকেজ ম্যানেজার এর মাধ্যমে ইন্সটল করতে পারবেন। ওপেনবাংলা কিবোর্ডের এই সংস্করণ `Deb` ও `RPM` উভয় প্যাকেজ হিসেবে পাওয়া যাবে।
 ### ইন্সটলেশন
 #### উবুন্টু
-উবুন্টু ১৮.০৪, ১৭.১০ এবং ১৬.০৪ ব্যবহারকারীরা সহজেই ওপেনবাংলা কিবোর্ড তাদের প্যাকেজ ম্যানেজারের সাহায্যে ইন্সটল করতে পারবেন। ইন্সটল করতে নিম্নের কমান্ডগুলো রান করতে হবেঃ
+ব্যবহারকারীরা উবুন্টু বা ডেবিয়ান বেসড যেকোন সিস্টেমে সহজেই ওপেনবাংলা কিবোর্ড ইন্সটল করতে পারবেন। [রিলিজ পেইজ](https://github.com/OpenBangla/OpenBangla-Keyboard/releases/tag/1.3.0) থেকে `deb` প্যাকেজ ডাউনলোড করে তা সফটওয়্যার ইন্সটলারের মাধ্যমে বা নিম্নের কমান্ডের মাধ্যমে ওপেনবাংলা কিবোর্ড ইন্সটল করতে হবে।
 ```bash
-$ curl -s https://packagecloud.io/install/repositories/mominul/OpenBangla/script.deb.sh | sudo bash
-$ sudo apt install openbangla-keyboard
+$ sudo apt install ./path/to/OpenBanglaKeyboard/package.deb
 ```
-বিস্তারিত জানতে [উইকি ভিজিট করুন](https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Installing-OpenBangla-Keyboard)।
+বিস্তারিত জানতে [উইকি](https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Installing-OpenBangla-Keyboard) ভিজিট করুন।
 #### ফেডোরা
-ফেডোরা ২৭ ব্যবহারকারীরা সহজেই ওপেনবাংলা কিবোর্ড তাদের প্যাকেজ ম্যানেজারের সাহায্যে ইন্সটল করতে পারবেন। ইন্সটল করতে নিম্নের কমান্ডগুলো রান করতে হবেঃ
+ব্যবহারকারীরা ফেডোরা বা ফেডোরা বেসড যেকোন সিস্টেমে সহজেই ওপেনবাংলা কিবোর্ড ইন্সটল করতে পারবেন। [রিলিজ পেইজ](https://github.com/OpenBangla/OpenBangla-Keyboard/releases/tag/1.3.0) থেকে `rpm` প্যাকেজ ডাউনলোড করে তা সফটওয়্যার ইন্সটলারের মাধ্যমে বা নিম্নের কমান্ডের মাধ্যমে ওপেনবাংলা কিবোর্ড ইন্সটল করতে হবে।
 ```bash
-$ curl -s https://packagecloud.io/install/repositories/mominul/OpenBangla/script.rpm.sh | sudo bash
-$ sudo dnf install openbangla-keyboard
+$ sudo dnf install ./path/to/OpenBanglaKeyboard/package.rpm
 ```
-বিস্তারিত জানতে [উইকি ভিজিট করুন](https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Installing-OpenBangla-Keyboard)।
+বিস্তারিত জানতে [উইকি](https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Installing-OpenBangla-Keyboard) ভিজিট করুন।
 
 এছাড়াও ওপেনবাংলা কিবোর্ডের `Deb` ও `RPM` প্যাকেজ [এখানে](https://github.com/OpenBangla/OpenBangla-Keyboard/releases/tag/1.3.0) পাবেন।
 
 ওপেনবাংলা কিবোর্ডের নতুন সংস্করণের সব পরিবর্তন জানতে [চেঞ্জলগ দেখুন](https://github.com/OpenBangla/OpenBangla-Keyboard/blob/master/CHANGELOG.md#130)।
 
 ওপেনবাংলা কিবোর্ডের সকল ব্যবহারকারীদের জন্য আমার আন্তরিক শুভেচ্ছা রইল। শুভ নববর্ষ :tada: :tada:!
+
+**অনিবার্য কারণে আমরা [packagecloud.io](https://packagecloud.io/) এর মাধ্যমে ইন্সটলেশন সুবিধাটি বন্ধ করতে বাধ্য হয়েছি। তাই ব্যবহারকারীদের উপরে বর্ণিত নিয়মে ওপেনবাংলা কিবোর্ড ইন্সটল করতে হবে।**
