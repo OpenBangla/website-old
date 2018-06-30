@@ -2,7 +2,7 @@
 title: "OpenBangla Keyboard"
 subtitle: "An Open Source Bengali input method"
 keywords: "OpenBangla Keyboard, Bangla, Bengali, Unicode, Linux, Avro Keyboard on Linux, Free, Open Source, Avro Phonetic, Bangla Computing, Bengali Computing, IME, Input Method, Input Method Editor, Touch Typing"
-bigimg: [{src: "img/OpenBangla-Keyboard.png"}, {src: "img/OBK1.png"}]
+bigimg: [{src: "img/OBK-1-4-0.png"}, {src: "img/OBK1.png"}]
 ---
 
 **OpenBangla Keyboard** is an OpenSource Bengali input method for GNU/Linux systems.  It's flexible, gorgeous, feature rich, totally customizable, user friendly and already has a lot of typing automation tools that you have never imagined!
@@ -26,13 +26,15 @@ The aim of this project is to add all popular Bengali typing methods from Bangla
 </br>
 
 <div class="main-explain-area jumbotron">
+    <!--
     <div class="get-started-wrap" style="text-align:center">
         <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/OpenBangla/OpenBangla-Keyboard/releases" target="_blank">Download Packages for Linux</a>
     </div>
-    </br>
-    <div style="text-align:center">
-        <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Installing-OpenBangla-Keyboard" target="_blank">Installation instructions</a>
-    </div>
+    </br>-->
+    <p>To install OpenBangla Keyboard, run the following in your terminal:</p>
+    <pre><code class="language-bash">bash -c &quot;$(wget -q https://raw.githubusercontent.com/OpenBangla/OpenBangla-Keyboard/master/tools/install.sh -O -)&quot;
+</code></pre>
+    <p style="text-align:center">Or visit <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Installing-OpenBangla-Keyboard" target="_blank">manual install instructions</a>.</p>
 </div>
 
 ## Features
