@@ -1,0 +1,30 @@
+enable  : true
+topTitle: A picture is worth a thousand words
+title   : Screenshots.
+subtitle: ""
+
+filtermenu :
+  - name      : Photography
+    category  : photography
+
+  - name      : Ios App
+    category  : ios
+
+  - name      : Development
+    category  : development
+
+  - name      : Design
+    category  : design
+
+item   :
+  - title : Fully Customizable
+    image : images/portfolio/settings.png
+    category  : linux
+
+  - title : Auto Correct Entries
+    image : images/portfolio/auto_correct.png
+    category  : linux
+
+  - title : Changing Layouts
+    image : images/portfolio/topbar-layout.png
+    category  : linux

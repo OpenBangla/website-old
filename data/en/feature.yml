@@ -1,0 +1,31 @@
+enable  : true
+item  :
+  - icon  : tf-ion-flash
+    title : Fast
+    description : >
+      Built with performance in mind. 
+
+  - icon  : tf-ion-android-list
+    title : Dictionary based suggestion
+    description : >
+      Can predict and suggest phonetically similar words with correct spelling on the fly.
+
+  - icon  : tf-ion-android-checkbox-outline
+    title : Auto Correct
+    description : >
+      Brings commonly used English words to Bangla (like, Facebook, download etc.) even with their original English spelling and fixes numerous commonly mistyped words. It's also editable by the user!
+
+  - icon  : tf-ion-android-star-outline
+    title : Your preference
+    description : >
+      Automatically saves your selected candidate from the suggestions list and will select it automatically on the next time.
+
+  - icon  : tf-ion-ios-albums-outline
+    title : Layout Viewer
+    description : >
+      See the actual image of the current keyboard layout anytime you need. Now there is no need to print or draw a keyboard layout and attach it on your computer table!
+
+  - icon  : tf-ion-android-options
+    title : Fully Customizable
+    description : >
+      It'll never get in your way!

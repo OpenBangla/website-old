@@ -1,9 +1,7 @@
 ---
 title: "ওপেনবাংলা কিবোর্ড ১.৫.১ - প্রকাশিত!"
 date: 2018-10-12
-bigimg: [{src: "/img/OBK-1-4-0.png"}]
-tags: ["openbangla-keyboard", "release", "1.5.1"]
-type: post
+author: Muhammad Mominul Huque
 ---
 
 ওপেনবাংলা কিবোর্ডের এই নতুন সংস্করণ একটি রক্ষণাবেক্ষণমূলক বা "*maintenance release*", তাই এই সংস্করণে মূলত বাগ ফিক্সকে গুরুত্ব দেয়া হয়েছে।

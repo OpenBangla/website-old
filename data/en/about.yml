@@ -1,0 +1,23 @@
+enable  : true
+item    :
+  - positionRight : false
+    image : images/screenshot-1.png
+    title : Avro Phonetic
+    description : >
+      Support for preview window to see suggestions with dictionary assistance. Type with confidence. The suggestion list also includes the written **English word**, which is very helpful when you just need it!
+
+  - positionRight : true
+    image : images/screenshot-2.png
+    title : Get suggestions when writing with Probhat and others
+    description : >
+      Get suggestions with dictionary assistance even when writing with Fixed Keyboard methods such as **Probhat**, **Jatiya** and others which was **never possible before!**
+  - positionRight : false
+    image : images/ligature.png
+    title : Write Kar as you like
+    description : >
+      Use **Traditional Kar Joining** feature of Fixed Layouts and see beautiful literary kar ligatures in your writing.
+  - positionRight : true
+    image : images/topbar.png
+    title : Configuration always at your hand
+    description : >
+      Comes with a configuration tool which is very **handy** and **easy** to use!

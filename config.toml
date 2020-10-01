@@ -1,45 +1,89 @@
-baseURL = "https://openbangla.github.io"
+baseURL = "https://openbangla.github.io/"
 languageCode = "en-us"
-title = "OpenBangla"
-theme = "beautifulhugo"
-disqusShortname = "openbangla"
-googleAnalytics = "UA-83035690-1"
-enableEmoji = true
+title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
+theme = "navigator-hugo"
+summaryLength = 10
 
-[Params]
-  logo = "img/square.png"
-  favicon = "img/openbangla.ico"
-  dateFormat = "January 2, 2006"
-  #commit = false
-  rss = true
-  comments = true
-  readingTime = true
-  useHLJS = true
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = "UA-83035690-1" # your analitics ID
 
-[Author]
-  name = "OpenBangla Team"
-  website = "https://openbangla.github.io"
-  email = "openbanglateam@gmail.com"
-  facebook = "openbanglakeyboard"
-  github = "OpenBangla"
-  twitter = "OpenBanglaTeam"
+enableGitInfo = false
+pygmentsCodeFences = true
 
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = false
+DefaultContentLanguage = "en"
 
-[[menu.main]]
-    name = "Download"
-    url = "download/"
-    weight = 2
+# Site Params
+[params]
+logo = "images/logo.png"
 
-[[menu.main]]
-    name = "Blog"
-    url = "blog/"
-    weight = 3
+[[Params.listeLangues]]
+code = "en"
 
-[[menu.main]]
-    name = "Github"
-    url = "https://github.com/OpenBangla"
-    weight = 4
+# meta data
+author = "Themefisher"
+description = "This is meta description"
+
+# Gestion des langues : FR / EN / NL / DE
+[Languages]
+############# 1 - ENGLISH site
+[Languages.en]
+weight = 1
+languageCode = "en-us"
+title = "OpenBangla Keyboard"
+dateFormat = "January 2, 2006"
+
+home = "Home"
+logo = "images/48.png"
+default = "images/blog/default.png"
+menufixed = false
+
+# Hero Area Section
+[Languages.en.params.hero]
+enable  = true
+heading = "OpenBangla Keyboard"
+description = "An open source, Unicode compliant, Bangla input method for GNU/Linux systems. It’s a full-fledged Bangla input method with many famous typing methods and typing automation tools."
+button  = true
+btnText = "Install"
+btnURL  = "install"
+videoThumb = "images/256.png"
+videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+
+# About 2 Section
+[Languages.en.params.aboutSm]
+enable  = true
+title   = "The last Bangla writing solution you'll ever need!"
+description = "**OpenBangla Keyboard** comes with the popular **Avro Phonetic** which is the *de-facto* phonetic transliteration method for writing Bangla. It also includes multiple fixed keyboard layouts such as **Probhat**, **Munir Optima**, **National (Jatiya)** etc. which are very popular amongst the professional writers."
+
+# Blog Section On Homepage
+[Languages.en.params.blog]
+enable  = true
+topTitle= "Stay Updated!"
+title   = "Blog."
+subtitle= ""
+
+# Contact Section
+[Languages.en.params.contact]
+enable  = true
+facebook= "https://www.facebook.com/openbanglakeyboard"
+twitter = "OpenBanglaTeam"
+github= "https://github.com/OpenBangla"
+mail= "mailto:openbanglateam@gmail.com"
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+# Site Menus
+[menu]
+# Navbar Menus
+[[menu.nav]]
+name    = "install"
+url     = "install"
+weight  = 2
+[[menu.nav]]
+name    = "blog"
+url     = "blog"
+weight  = 3
